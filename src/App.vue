@@ -11,7 +11,7 @@ export default {
   name: 'app',
   mounted() {
     console.log(222)
-    console.log("222")
+    console.log('222')
   },
   components: {}
 }
