@@ -8,7 +8,7 @@ module.exports = {
     es6: true
   },
   rules: {
-    'no-console': 2,
+    'no-console': 1,
     'no-useless-escape': 0,
     'no-multiple-empty-lines': [
       2,
@@ -35,3 +35,10 @@ module.exports = {
     parser: 'babel-eslint'
   }
 }
+
+
+// "husky": {
+    //     "hooks": {
+    //       "pre-commit": "yarn run precommit-msg && lint-staged"
+    //     }
+    //   },

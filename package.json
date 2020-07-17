@@ -15,9 +15,10 @@
     "clear-commit-msg": "bash ./commands/clear-commit-msg.sh",
     "eslint-fix": "eslint src/**/**/*.vue --fix",
     "format-code": "prettier-eslint --write \"src/**/*.js\" \"src/**/*.vue\"",
-    "precommit-msg": "echo '🐉 Start pre-commit checks...' && exit 0",
+    "precommit-msg": "echo 'Pre-commit checks.........' && exit 0",
     "preview": "node ./commands/preview.js"
   },
+  "pre-commit": ["precommit-msg", "lint"],
   "dependencies": {
     "axios": "0.19.0",
     "dayjs": "^1.8.17",
