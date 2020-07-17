@@ -18,10 +18,7 @@
     "precommit-msg": "echo 'Pre-commit checks.........' && exit 0",
     "preview": "node ./commands/preview.js"
   },
-  "pre-commit": [
-    "precommit-msg",
-    "lint"
-  ],
+  "pre-commit": ["precommit-msg", "lint"],
   "dependencies": {
     "axios": "0.19.0",
     "dayjs": "^1.8.17",
@@ -86,11 +83,6 @@
   "eslintIgnore": [
     "package.json"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn run precommit-msg && lint-staged"
-    }
-  },
   "lint-staged": {
     "**/**.{js,json,pcss,md,vue,css,scss}": [
       "prettier --write"
