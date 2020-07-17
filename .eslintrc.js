@@ -36,9 +36,8 @@ module.exports = {
   }
 }
 
-
 // "husky": {
-    //     "hooks": {
-    //       "pre-commit": "yarn run precommit-msg && lint-staged"
-    //     }
-    //   },
+//     "hooks": {
+//       "pre-commit": "yarn run precommit-msg && lint-staged"
+//     }
+//   },
