@@ -8,7 +8,7 @@ module.exports = {
     es6: true
   },
   rules: {
-    'no-console': 1,
+    'no-console': 2,
     'no-useless-escape': 0,
     'no-multiple-empty-lines': [
       2,
